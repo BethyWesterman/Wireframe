@@ -1,0 +1,28 @@
+div {
+    border: 1px solid grey;
+}
+
+@import'nav';
+
+@import'layout';
+
+@import'grid';
+
+@import'news-grid';
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+//TODO: top stories banner - full width
+
+
+//FIXME: gallery grid
+
+
+//TODO: frame content with images on review page
