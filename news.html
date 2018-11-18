@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="sss/sss.js"></script>
+    <link rel="stylesheet" href="sss/sss.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!--homework= .site branding display none below point
@@ -58,18 +60,46 @@
                 <li>item 5</li>
             </ul>
         </div>
+
+
+
+
         <div class="top-stories">
             <h2>Top Stories</h2>
-            <figure>
-                <img src="https://via.placeholder.com/900x300" alt="">
-                <figcaption>Story about food</figcaption>
-                <img src="https://via.placeholder.com/900x300" alt="">
-                <figcaption>Story about food</figcaption>
-                <img src="https://via.placeholder.com/900x300" alt="">
-                <figcaption>Story about food</figcaption>
-            </figure>
+<div class="slider">
+                <div class="top-story">
+                   <h3>Story Title</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x300" alt="">
+                        <figcaption>Story about food</figcaption>
+                    </figure>
+                        <p>Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text </p>
+                    </div>
+
+                <div class="top-story">
+                   <h3>Story Title</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x300" alt="">
+                        <figcaption>Story about food</figcaption>
+                    </figure>
+                        <p>Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text </p>
+                    </div>
+
+                <div class="top-story">
+                   <h3>Story Title</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/300x300" alt="">
+                        <figcaption>Story about food</figcaption>
+                    </figure>
+                        <p>Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text Story text </p>
+                    </div>
+            </div>
         </div>
         <!-- top stories -->
+
+
+
+
         <div class="story-grid">
             <div class="news-story">
                 <h3>Story Title</h3>
@@ -148,6 +178,16 @@
                 }
             });
         });
+    </script>
+
+    <script>
+    $('.slider').sss({
+        slideShow : true, // Set to false to prevent SSS from automatically animating
+        startOn : 0, // Slide to display first. Uses array notation (0 = first slide)
+        transition : 400, // Length (in milliseconds) of the fade transition
+        speed : 3500, // Slideshow speed in milliseconds
+        showNav : true // Set to false to hide navigation arrows.
+    });
     </script>
 
 
