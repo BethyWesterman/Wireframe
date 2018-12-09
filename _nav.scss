@@ -1,4 +1,9 @@
 .site-header {
+    position: fixed;
+    background-color: antiquewhite;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     .site-branding {

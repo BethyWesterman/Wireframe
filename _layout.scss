@@ -1,4 +1,12 @@
+body {
+    h2 {
+    padding-top: 100px;
+
+    }
+}
+
 .site {
+
     display: flex;
     justify-content: center;
     .site-content {
@@ -7,6 +15,7 @@
 }
 
 .site-content {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -34,6 +43,12 @@
     p {
         width: 75%;
     }
+}
+
+
+.page-wrapper {
+    width: 70vw;
+    margin: 0 auto;
 }
 
 
