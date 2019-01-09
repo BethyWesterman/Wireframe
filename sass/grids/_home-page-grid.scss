@@ -1,0 +1,36 @@
+.home-page-grid {
+    display: grid;
+    grid-template-columns: [hero-start]20% [hero-end main-start]60% [main-end news-start]20%;
+    grid-template-areas:
+    "hero main news"
+    "gallery gallery news";
+}
+
+
+.hero-image {
+    background-color: antiquewhite;
+    grid-area: hero;
+}
+
+.main-text-content {
+    background-color: azure;
+    grid-area: main;
+}
+
+.news-updates {
+    background-color: beige;
+    grid-area: news;
+}
+
+
+.gallery {
+    grid-area: gallery;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    img {
+        width: calc(100% /6);
+        align-self: auto;
+    }
+}

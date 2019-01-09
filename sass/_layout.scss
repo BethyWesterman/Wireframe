@@ -1,0 +1,25 @@
+.site {
+    display: flex;
+    justify-content: center;
+    .site-content {
+        flex-basis: 80%;
+    }
+}
+
+.site-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h1 {
+        width: 100%;
+    }
+}
+
+.page-wrapper {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+
+@import'reviews';

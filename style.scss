@@ -1,14 +1,24 @@
+body {
+    margin: 0;
+}
+
+
+    h2 {
+    padding-top: 100px;
+    }
+
+
+
 div {
     border: 1px solid grey;
 }
 
-@import'nav';
+@import'sass/nav';
 
-@import'layout';
+@import'sass/layout';
 
-@import'grid';
+@import'sass/grids';
 
-@import'news-grid';
 
 
 img {
