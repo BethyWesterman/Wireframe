@@ -15,13 +15,8 @@
 
 
             <div class="parks-container">
-
-                <div class="park">
-                    <img src="img/hollywoodstudios.jpg">
-                </div>
-
-                <div class="side-bar-column">
-                    <ul class="side-bar">
+                <div class="park-list-container">
+                    <ul class="park-list">
                         <li><a href="">Disneyland</a></li>
                         <li><a href="">Disney's Californian Adventure</a></li>
                         <li><a href="">Magic Kingdom</a></li>
@@ -36,27 +31,55 @@
                         <li><a href="">Disneyland Tokyo</a></li>
                         <li><a href="">Disneyland Shang Hai</a></li>
                     </ul>
-                </div>
-                <!--side-bar-->
-
             </div>
-            <!-- parks container ends !-->
+            <!--side-bar-->
 
+<div class="single-park-container">
+    <img src="img/Cinderellacastleblackandwhite.jpg" alt="">
+    <h2>park name</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores culpa soluta mollitia rem veniam ex, vel ipsam, qui. Quas, fugit, atque. Laboriosam tenetur omnis iure nesciunt earum eaque enim dolores.50</p>
+</div>
+<div class="single-park-container">
+    <img src="img/Cinderellacastleblackandwhite.jpg" alt="">
+    <h2>park name</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores culpa soluta mollitia rem veniam ex, vel ipsam, qui. Quas, fugit, atque. Laboriosam tenetur omnis iure nesciunt earum eaque enim dolores.50</p>
+</div>
+<div class="single-park-container">
+    <img src="img/Cinderellacastleblackandwhite.jpg" alt="">
+    <h2>park name</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores culpa soluta mollitia rem veniam ex, vel ipsam, qui. Quas, fugit, atque. Laboriosam tenetur omnis iure nesciunt earum eaque enim dolores.50</p>
+</div>
+<div class="single-park-container">
+    <img src="img/Cinderellacastleblackandwhite.jpg" alt="">
+    <h2>park name</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores culpa soluta mollitia rem veniam ex, vel ipsam, qui. Quas, fugit, atque. Laboriosam tenetur omnis iure nesciunt earum eaque enim dolores.50</p>
+</div>
+<div class="single-park-container">
+    <img src="img/Cinderellacastleblackandwhite.jpg" alt="">
+    <h2>park name</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores culpa soluta mollitia rem veniam ex, vel ipsam, qui. Quas, fugit, atque. Laboriosam tenetur omnis iure nesciunt earum eaque enim dolores.50</p>
+</div>
 
 
 
         </div>
-        <!-- primary ends !-->
+        <!-- parks container ends !-->
 
 
-        <div class="secondary">
-            <!-- Sidebar Content -->
-        </div>
-        <!-- secondary -->
 
 
     </div>
-    <!-- site content ends !-->
+    <!-- primary ends !-->
+
+
+    <div class="secondary">
+        <!-- Sidebar Content -->
+    </div>
+    <!-- secondary -->
+
+
+</div>
+<!-- site content ends !-->
 
 </div>
 <!-- site ends !-->

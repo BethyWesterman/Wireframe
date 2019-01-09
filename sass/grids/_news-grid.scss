@@ -1,7 +1,8 @@
 .news-grid {
     display: flex grid;
     grid-template-columns: [main-start]75% [main-end cat-start]25%;
-    grid-template-areas: "topstories  categories" "newsgrid categories";
+    grid-template-areas: 'topstories  categories'
+        'newsgrid categories';
 }
 
 .top-stories {
@@ -49,3 +50,6 @@
         }
     }
 }
+
+
+//FIXME: news-catergories sidebar -
