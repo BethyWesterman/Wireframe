@@ -103,8 +103,8 @@ div {
   justify-content: center;
   padding-top: 85px; }
   .site .site-content {
-    -ms-flex-preferred-size: 80%;
-    flex-basis: 80%; }
+    -ms-flex-preferred-size: 80vw;
+    flex-basis: 80vw; }
 
 .site-content {
   display: -webkit-box;
@@ -141,6 +141,22 @@ div {
     .primary .review-container div.review-list {
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%; } }
+
+.park-list-container {
+  position: fixed;
+  right: 10vw;
+  width: 30vw; }
+  .park-list-container ul.park-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .park-list-container ul.park-list a {
+      text-decoration: none;
+      padding: .5em 1em .5em 3em;
+      display: block; }
+
+.single-park-container {
+  width: 50vw; }
 
 .home-page-grid {
   display: -ms-grid;

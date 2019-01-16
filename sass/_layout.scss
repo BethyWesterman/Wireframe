@@ -3,7 +3,7 @@
     justify-content: center;
     padding-top: 85px;
     .site-content {
-        flex-basis: 80%;
+        flex-basis: 80vw;
     }
 }
 
@@ -23,4 +23,5 @@
 
 
 
-@import'reviews';
+@import'Layouts/reviews';
+@import'Layouts/parks';

@@ -1,0 +1,19 @@
+.park-list-container {
+    position: fixed;
+    right: 10vw;
+    width: 30vw;
+    ul.park-list{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        a {
+            text-decoration: none;
+            padding: .5em 1em .5em 3em;
+            display: block;
+        }
+    }
+}
+
+.single-park-container {
+    width: 50vw;
+}
