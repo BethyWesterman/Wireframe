@@ -1,9 +1,6 @@
 body {
   margin: 0; }
 
-div {
-  border: 1px solid grey; }
-
 .site-header {
   position: fixed;
   background-color: antiquewhite;
@@ -157,6 +154,25 @@ div {
 
 .single-park-container {
   width: 50vw; }
+
+.single-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid grey;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 1em; }
+  .single-entry h2 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%; }
+  .single-entry p {
+    -ms-flex-preferred-size: 66%;
+    flex-basis: 66%; }
 
 .home-page-grid {
   display: -ms-grid;

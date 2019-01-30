@@ -1,0 +1,11 @@
+.single-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid grey;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 1em; }
+  .single-entry h2 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%; }
